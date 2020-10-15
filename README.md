@@ -13,10 +13,11 @@ ___
 
 ___
 ### OpenCV  -*Image processing*
->Required Libraries  : `cv2`<br>
+>Required Libraries  : `cv2` , `numpy`<br>
 >to install : `$ pip intall opencv-python`
  - #### capture_frames_from_video.py
    - Run to capture frames from a saved video with a specific frame rate
  - #### capture_frames_from_webcam.py
    - Run to capture frames from WebCam with a specific frame rate. To exit press esc key.
-   
+ - #### face_detection_using_OpenCV.py
+   - Run to detect face. Draws a rectangle around the detected face. To exit press esc key.   
